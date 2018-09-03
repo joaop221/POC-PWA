@@ -1,0 +1,7 @@
+<mat-list>
+  <h3 mat-subheader>Lista de Serviços</h3>
+  <mat-list-item *ngFor="let servico of listaServicos;">
+    <mat-icon mat-list-icon>note</mat-icon>
+    <h4 mat-line>{{servico.nome}}</h4>
+  </mat-list-item>
+</mat-list>
